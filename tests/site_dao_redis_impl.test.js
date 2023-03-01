@@ -153,7 +153,7 @@ test(`${testSuiteName}: findById with missing site`, async () => {
 });
 
 // This test is for Challenge #1.
-test.skip(`${testSuiteName}: findAll with multiple sites`, async () => {
+test(`${testSuiteName}: findAll with multiple sites`, async () => {
   const sites = [{
     id: 1,
     capacity: 4.5,
